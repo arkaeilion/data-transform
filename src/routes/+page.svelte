@@ -26,19 +26,22 @@
     {
       id: '1',
       type: 'importNode',
-      data: { label: 'An input node' },
+      dragHandle: '.drag-handle',
+      data: {},
       position: { x: 0, y: 50 }
     },
     {
       id: '2',
       type: 'expandNode',
-      data: { label: 'An expand node' },
+      dragHandle: '.drag-handle',
+      data: {},
       position: { x: 300, y: 50 }
     },
     {
       id: '3',
       type: 'exportNode',
-      data: { label: 'Output A' },
+      dragHandle: '.drag-handle',
+      data: {},
       position: { x: 650, y: 25 }
     },
   ];
